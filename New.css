@@ -1,0 +1,121 @@
+body{
+    background-color: rgba(77, 77, 77);
+    color: rgba(77, 77, 77);
+}
+#page-logo a{
+    color: rgb(200, 34, 34);
+}
+header nav ul li{
+   background-color: rgba(77, 77, 77);
+}
+header nav ul li a{
+    color: rgb(200, 34, 34) ;
+}
+header nav ul li a:hover{
+background-color: rgb(200, 34, 34);
+ color:rgba(77, 77, 77) ;
+}
+main{
+    padding: 0%;
+    margin-top:100px ;
+}
+main ul{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    background-color: white;
+    border-radius: 5px;
+}
+img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+}
+.pair{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    box-sizing: border-box;
+}
+.pair li{
+    margin: 10px;
+    width: 520px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pair li img{
+    width: 240px;
+    height: 240px;
+}
+
+#Long{
+    
+    display: flex;
+    justify-content:center;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#list{
+    width: 1062px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+}
+#Long  img{
+    width: 240px;
+    height: 240px;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+.side h1{
+    margin: 0px;
+    font-size: 24px;
+    padding:20px;
+}
+.side p{
+    margin: 0px;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.side div a{
+    float: right;
+    margin: 20px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color:rgb(200, 34, 34);
+    text-decoration: none;
+    font-size:14.4px;
+    font-weight: bold;
+}
+.side div a:hover{
+    background-color:rgb(255, 239, 235) ;
+}
+#bali{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+#bali li{
+    margin: 10px;
+    width: 520px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+}
+#bali li img{
+    width: 240px;
+    height: 240px;
+}

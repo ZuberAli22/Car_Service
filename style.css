@@ -1,0 +1,112 @@
+#hero{
+    height: 640px;
+    background-image: url("car.jpg");
+    background-position: center;
+    background-size: cover ;
+    
+}
+
+#hero-content{
+    width:720px;
+    background-color: rgba(152, 150, 150, 0.466);
+    box-shadow: 2px 4px 2px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0px; 
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#hero-content h1{
+    font-size: 40px;
+    color: rgb(9, 9, 9) ;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+}
+#hero-content p{
+    font-size: 19.2px;
+    text-transform: uppercase;
+    color: rgb(20, 19, 19);
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+#hero-content a{
+    color: black;
+    text-decoration: none;
+    padding:9.6px 19px;
+    background-color: rgb(200, 34, 34);
+    font-size: 19.2px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 2px 4px 8px rgb(125, 112, 112);
+}
+#hero-content a:hover{
+    background-color: rgb(184, 6, 6);
+}
+#highlights{
+    margin-top: 0%;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: rgb(36, 32, 32) ; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+}
+#highlights h2{
+    margin-top:50px;
+    font-family: 'fira sans';
+    padding: 0px;
+    width: 200px;
+   margin-left:43%;
+    display: inline-block;
+    color: rgb(221, 65, 65);
+    border: 2px  solid rgb(221, 65, 65);
+    border-left: 0px;
+    border-right:0px ;
+    text-transform: uppercase;
+    font-size: 28px;
+} 
+
+#highlights ul{
+    padding:0%;
+    margin: 0%;
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+#highlights li{
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+    padding:10px ;
+    
+}
+
+#highlights img{
+    width: 370px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px rgb(68, 67, 67);
+
+}
+#highlights ul p{
+    color: rgb(221, 65, 65);
+    border: 2px  solid rgb(221, 65, 65);
+    border-left: 0px;
+    border-right:0px ;
+    
+}
+#highlights ul p span{
+    color:rgb(201, 201, 204);
+    
+}
+
+
